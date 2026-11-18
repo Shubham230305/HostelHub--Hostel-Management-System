@@ -1,0 +1,265 @@
+.stat-card,
+.dashboard-panel {
+  border: 1px solid #e8edf1;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.stat-card {
+  min-width: 0;
+  padding: 20px;
+}
+
+.stat-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #718091;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.stat-icon {
+  width: 39px;
+  height: 39px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+}
+
+.stat-icon.blue {
+  background: #eaf1f7;
+  color: #315c78;
+}
+
+.stat-icon.purple {
+  background: #f0edfa;
+  color: #7161a5;
+}
+
+.stat-icon.green {
+  background: #e9f4ed;
+  color: #39815a;
+}
+
+.stat-icon.orange {
+  background: #fbf0e6;
+  color: #b8793f;
+}
+
+.stat-value {
+  display: block;
+  margin-top: 18px;
+  color: #24384c;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+.stat-description {
+  margin: 6px 0 0;
+  color: #8a96a2;
+  font-size: 11px;
+}
+
+.dashboard-panel {
+  min-width: 0;
+  padding: 21px;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.panel-heading h3 {
+  margin: 0;
+  color: #293d50;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.panel-heading p {
+  margin: 6px 0 0;
+  color: #8995a1;
+  font-size: 11px;
+}
+
+.occupancy-chart {
+  width: 100%;
+  height: 250px;
+}
+
+.chart-empty {
+  min-height: 150px;
+  display: grid;
+  place-items: center;
+  color: #8b97a3;
+  font-size: 12px;
+}
+
+.availability-number strong {
+  display: block;
+  color: #24384c;
+  font-size: 33px;
+}
+
+.availability-number span {
+  color: #8995a1;
+  font-size: 11px;
+}
+
+.availability-divider {
+  height: 1px;
+  margin: 22px 0 12px;
+  background: #edf0f3;
+}
+
+.availability-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #788696;
+  font-size: 12px;
+}
+
+.availability-row strong {
+  color: #34495c;
+}
+
+.maintenance-status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.maintenance-status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #6f7e8d;
+  font-size: 12px;
+}
+
+.maintenance-status-row strong {
+  margin-left: auto;
+  color: #34495c;
+}
+
+.status-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.status-dot.open {
+  background: #d99a48;
+}
+
+.status-dot.progress {
+  background: #5885a6;
+}
+
+.status-dot.resolved {
+  background: #4b9a70;
+}
+
+.status-dot.rejected {
+  background: #c66d6d;
+}
+
+.request-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.request-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #edf0f3;
+}
+
+.request-row:last-child {
+  border-bottom: 0;
+}
+
+.request-icon {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  background: #edf2f5;
+  color: #45647b;
+}
+
+.request-info {
+  min-width: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.request-info strong {
+  overflow: hidden;
+  color: #34495c;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.request-info span {
+  color: #8995a1;
+  font-size: 10px;
+}
+
+.request-meta {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.request-meta small {
+  color: #929daa;
+  font-size: 10px;
+}
+
+.request-status {
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: #f1f3f5;
+  color: #637181;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.request-status.open {
+  background: #fbf2e6;
+  color: #a66e2f;
+}
+
+.request-status.in_progress {
+  background: #eaf1f7;
+  color: #416d8b;
+}
+
+.request-status.resolved {
+  background: #eaf4ed;
+  color: #39815a;
+}
+
+.request-status.rejected {
+  background: #f9ecec;
+  color: #a64f4f;
+}

@@ -1,0 +1,419 @@
+.hostels-page {
+  padding: 28px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.hostels-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.hostels-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hostels-title-row svg {
+  color: #4f46e5;
+}
+
+.hostels-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.hostels-header p {
+  margin: 7px 0 0;
+  color: #64748b;
+}
+
+.hostels-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.hostels-btn {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hostels-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hostels-btn-primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.hostels-btn-primary:hover:not(:disabled) {
+  background: #4338ca;
+}
+
+.hostels-btn-secondary {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+.hostels-btn-secondary:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.hostels-alert {
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.hostels-alert-error {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.hostels-alert-success {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.hostels-toolbar {
+  margin-bottom: 18px;
+}
+
+.hostels-search {
+  width: min(420px, 100%);
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 13px;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  background: white;
+}
+
+.hostels-search svg {
+  color: #94a3b8;
+}
+
+.hostels-search input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+}
+
+.hostels-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hostels-table-wrapper {
+  overflow-x: auto;
+}
+
+.hostels-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 950px;
+}
+
+.hostels-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 14px 18px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hostels-table td {
+  padding: 16px 18px;
+  border-bottom: 1px solid #edf2f7;
+  color: #334155;
+  font-size: 14px;
+}
+
+.hostels-table tbody tr:hover {
+  background: #fafbff;
+}
+
+.hostels-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.hostel-name {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.hostel-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  background: #eef2ff;
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hostel-name strong {
+  display: block;
+  color: #1e293b;
+}
+
+.hostel-name span {
+  display: block;
+  color: #94a3b8;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.hostel-address {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  max-width: 280px;
+}
+
+.hostel-address svg {
+  color: #94a3b8;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.hostel-status {
+  display: inline-flex;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hostel-status-active {
+  color: #15803d;
+  background: #f0fdf4;
+}
+
+.hostel-status-inactive {
+  color: #b91c1c;
+  background: #fef2f2;
+}
+
+.hostel-row-actions {
+  display: flex;
+  gap: 7px;
+}
+
+.hostels-icon-btn {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #dbe2ea;
+  border-radius: 7px;
+  background: white;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hostels-icon-btn:hover {
+  border-color: #c7d2fe;
+  color: #4f46e5;
+}
+
+.hostels-delete-btn:hover {
+  border-color: #fecaca;
+  color: #dc2626;
+  background: #fef2f2;
+}
+
+.hostels-state {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+}
+
+.hostels-state svg {
+  color: #94a3b8;
+}
+
+.hostels-state h3 {
+  margin: 12px 0 4px;
+  color: #334155;
+}
+
+.hostels-state p {
+  margin: 0;
+}
+
+.hostels-spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid #e2e8f0;
+  border-top-color: #4f46e5;
+  border-radius: 50%;
+  animation: hostels-spin 0.8s linear infinite;
+}
+
+@keyframes hostels-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hostels-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.hostels-modal {
+  width: min(650px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
+}
+
+.hostels-modal-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 22px 24px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hostels-modal-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.hostels-modal-header p {
+  margin: 5px 0 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.hostels-close-btn {
+  border: 0;
+  background: transparent;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.hostels-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding: 22px 24px 0;
+}
+
+.hostels-form-group {
+  min-width: 0;
+}
+
+.hostels-full-width {
+  grid-column: 1 / -1;
+}
+
+.hostels-form-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.hostels-form-group label span {
+  color: #dc2626;
+}
+
+.hostels-form-group input,
+.hostels-form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dbe2ea;
+  border-radius: 7px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+}
+
+.hostels-form-group input:focus,
+.hostels-form-group textarea:focus {
+  border-color: #818cf8;
+  box-shadow: 0 0 0 3px #eef2ff;
+}
+
+.hostels-form-group textarea {
+  resize: vertical;
+}
+
+.hostels-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 20px 24px;
+  margin-top: 22px;
+  border-top: 1px solid #e2e8f0;
+}
+
+@media (max-width: 700px) {
+  .hostels-page {
+    padding: 18px;
+  }
+
+  .hostels-header {
+    flex-direction: column;
+  }
+
+  .hostels-actions {
+    width: 100%;
+  }
+
+  .hostels-actions .hostels-btn {
+    flex: 1;
+  }
+
+  .hostels-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hostels-full-width {
+    grid-column: auto;
+  }
+}
