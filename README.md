@@ -207,28 +207,25 @@ The frontend can then be accessed through the local URL provided by Vite.
 
 ## 📸 Interface Snapshots
 
-Screenshots of the HostelHub application can be added here.
-
 ### 🔐 Login
 
-_Add login screenshot here._
+![Login](Snapshots/Login.png)
 
 ### 👨‍🎓 Student Dashboard
 
-_Add student dashboard screenshot here._
+![Student Dashboard](Snapshots/Student.png)
 
 ### 👨‍💼 Admin Dashboard
 
-_Add admin dashboard screenshot here._
+![Admin Dashboard](Snapshots/Admin.png)
 
 ### 🔧 Maintenance Dashboard
 
-_Add maintenance dashboard screenshot here._
+![Maintenance Dashboard](Snapshots/Maintenance.png)
 
 ### 🏠 Room Management
 
-_Add room management screenshot here._
-
+![Room Management](Snapshots/Room.png)
 ---
 
 ## 🔄 Main Modules
